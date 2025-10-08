@@ -1,5 +1,5 @@
 import { Entity, PrimaryGeneratedColumn, Column, CreateDateColumn, UpdateDateColumn, Index, OneToMany } from 'typeorm';
-import { Food } from 'src/entities/food.entity';
+import { Food } from 'src/entities/index';
 
 @Entity('food_categories')
 @Index(['name'])
