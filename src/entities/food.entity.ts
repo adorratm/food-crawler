@@ -1,6 +1,6 @@
 import { Entity, PrimaryGeneratedColumn, Column, CreateDateColumn, UpdateDateColumn, Index, ManyToOne, JoinColumn, OneToMany } from 'typeorm';
-import { FoodCategory } from './food-category.entity';
-import { FoodItem } from './food-item.entity';
+import { FoodCategory } from 'src/entities/food-category.entity';
+import { FoodItem } from 'src/entities/food-item.entity';
 
 @Entity('foods')
 @Index(['name', 'category'])

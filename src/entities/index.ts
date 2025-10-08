@@ -1,3 +1,3 @@
-export { Food } from './food.entity';
-export { FoodCategory } from './food-category.entity';
-export { FoodItem } from './food-item.entity';
+export { Food } from 'src/entities/food.entity';
+export { FoodCategory } from 'src/entities/food-category.entity';
+export { FoodItem } from 'src/entities/food-item.entity';

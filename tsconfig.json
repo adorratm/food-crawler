@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
+    "module": "CommonJS",
     "declaration": true,
     "removeComments": true,
     "emitDecoratorMetadata": true,
@@ -9,22 +9,15 @@
     "target": "ESNext",
     "sourceMap": true,
     "outDir": "./dist",
-    "baseUrl": "./",
     "rootDir": "./src",
-    "incremental": true,
+    "baseUrl": "./",
+    "incremental": false,
     "skipLibCheck": true,
     "strictNullChecks": false,
     "noImplicitAny": false,
     "strictBindCallApply": false,
     "forceConsistentCasingInFileNames": false,
     "noFallthroughCasesInSwitch": false,
-    "paths": {
-      "@/*": ["src/*"],
-      "@/entities/*": ["src/entities/*"],
-      "@/modules/*": ["src/modules/*"],
-      "@/common/*": ["src/common/*"],
-      "@/config/*": ["src/config/*"]
-    },
     "noEmit": false
   }
 }

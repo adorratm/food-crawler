@@ -2,11 +2,11 @@ import { Module } from '@nestjs/common';
 import { BullModule } from '@nestjs/bullmq';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { ConfigModule, ConfigService } from '@nestjs/config';
-import { Food, FoodCategory, FoodItem } from './entities/index';
-import { CrawlerProcessor } from './workers/crawler.processor';
-import { CrawlerService } from './services/crawler.service';
-import { CrawlerController } from './controllers/crawler.controller';
-import { getDatabaseConfig } from './config/database.config';
+import { Food, FoodCategory, FoodItem } from 'src/entities/index';
+import { CrawlerProcessor } from 'src/workers/crawler.processor';
+import { CrawlerService } from 'src/services/crawler.service';
+import { CrawlerController } from 'src/controllers/crawler.controller';
+import { getDatabaseConfig } from 'src/config/database.config';
 
 @Module({
   imports: [

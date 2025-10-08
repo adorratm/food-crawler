@@ -1,5 +1,5 @@
 import { Controller, Post, Get, Param, Body, HttpException, HttpStatus } from '@nestjs/common';
-import { CrawlerService } from '../services/crawler.service';
+import { CrawlerService } from 'src/services/crawler.service';
 
 @Controller('crawler')
 export class CrawlerController {

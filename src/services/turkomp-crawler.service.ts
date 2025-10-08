@@ -1,6 +1,5 @@
 import puppeteer, { Browser, Page } from 'puppeteer';
-import { Food, FoodCategory, FoodItem } from '../entities/index';
-import { getDatabaseConfig } from '../config/database.config';
+import { Food, FoodCategory, FoodItem } from 'src/entities/index';
 import { ConfigService } from '@nestjs/config';
 import { DataSource, DataSourceOptions } from 'typeorm';
 import { Injectable } from '@nestjs/common';

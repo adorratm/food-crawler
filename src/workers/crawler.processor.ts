@@ -1,7 +1,6 @@
 import { Processor, WorkerHost } from '@nestjs/bullmq';
 import { Job } from 'bullmq';
-import { TurkompCrawlerService } from '../services/turkomp-crawler.service';
-import { getDatabaseConfig } from '../config/database.config';
+import { TurkompCrawlerService } from 'src/services/turkomp-crawler.service';
 import { ConfigService } from '@nestjs/config';
 import { Injectable } from '@nestjs/common';
 
