@@ -14,7 +14,7 @@ async function bootstrap() {
 
   // CORS ayarları
   app.enableCors({
-    origin: process.env.ALLOWED_ORIGINS?.split(',') || ['http://localhost:3000'],
+    origin: process.env.ALLOWED_ORIGINS?.split(',') || ['http://localhost:3000', 'http://localhost:5173', 'http://localhost:3008', 'http://localhost:3009'],
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials: true,
   });
