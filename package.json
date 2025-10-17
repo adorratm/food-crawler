@@ -13,9 +13,9 @@
     "typeorm": "ts-node ./node_modules/typeorm/cli"
   },
   "dependencies": {
-    "@bull-board/api": "^6.13.0",
-    "@bull-board/express": "^6.13.0",
-    "@bull-board/nestjs": "^6.13.0",
+    "@bull-board/api": "^6.13.1",
+    "@bull-board/express": "^6.13.1",
+    "@bull-board/nestjs": "^6.13.1",
     "@nestjs-modules/ioredis": "^2.0.2",
     "@nestjs/bullmq": "^11.0.4",
     "@nestjs/common": "^11.1.6",
@@ -27,7 +27,7 @@
     "@nestjs/platform-socket.io": "^11.1.6",
     "@nestjs/schedule": "^6.0.1",
     "@nestjs/serve-static": "^5.0.4",
-    "@nestjs/swagger": "^11.2.0",
+    "@nestjs/swagger": "^11.2.1",
     "@nestjs/throttler": "^6.4.0",
     "@nestjs/typeorm": "^11.0.0",
     "@nestjs/websockets": "^11.1.6",
@@ -54,7 +54,7 @@
     "passport-google-oauth20": "^2.0.0",
     "passport-jwt": "^4.0.1",
     "pg": "^8.16.3",
-    "puppeteer": "^24.24.0",
+    "puppeteer": "^24.25.0",
     "reflect-metadata": "^0.2.2",
     "rxjs": "^7.8.2",
     "sharp": "^0.34.4",
@@ -65,10 +65,10 @@
     "@nestjs/cli": "^11.0.10",
     "@nestjs/schematics": "^11.0.9",
     "@nestjs/testing": "^11.1.6",
-    "@types/node": "^24.7.2",
+    "@types/node": "^24.8.1",
     "@types/supertest": "^6.0.3",
-    "@typescript-eslint/eslint-plugin": "^8.46.0",
-    "@typescript-eslint/parser": "^8.46.0",
+    "@typescript-eslint/eslint-plugin": "^8.46.1",
+    "@typescript-eslint/parser": "^8.46.1",
     "eslint": "^9.37.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.5.4",
@@ -82,7 +82,7 @@
     "typescript": "^5.9.3"
   },
   "volta": {
-    "node": "24.10.0",
+    "node": "25.0.0",
     "yarn": "4.10.3"
   }
 }
